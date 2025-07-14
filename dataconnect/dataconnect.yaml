@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "digital-memory-assistant-vite"
+location: "europe-central2"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "digital-memory-assistant-vite-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
